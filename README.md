@@ -13,9 +13,10 @@ Instead of spending hours manually fixing Excel files, this script automates the
 - **Auto-Cleaning:** Removes currency symbols (`$`), trims whitespace, and handles missing values.
 - **Smart Formatting:** Standardizes mixed date formats to `YYYY-MM-DD`.
 - **Shopify Ready:** Automatically maps columns to Shopify's strict import schema (Handle, SKU, Price, Inventory).
-- **Error Handling:** robustly manages bad data rows without crashing.
+- **Error Handling:** Robustly manages bad data rows without crashing.
 
 ## 🛠️ Project Structure
+
 ```text
 ├── data/
 │   ├── sample_raw.csv       # Messy input file (Supplier format)
