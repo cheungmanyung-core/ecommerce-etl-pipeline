@@ -1,0 +1,15 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Environments
+.env
+venv/
+.venv/
+
+# IDE settings
+.vscode/
+.idea/
+
+# Local data (Keep sample data, ignore real client data)
+data/client_*.csv
