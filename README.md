@@ -23,18 +23,31 @@ Instead of spending hours manually fixing Excel files, this script automates the
 │   └── shopify_ready.csv    # Clean output file (Generated)
 ├── main.py                  # Core ETL logic
 └── requirements.txt         # Dependencies
-💻 Quick Start
-1. Clone the repository
+```
+
+## 💻 Quick Start
+
+### 1. Clone the repository
+```bash
 git clone [https://github.com/natecheung/ecommerce-etl-pipeline.git](https://github.com/natecheung/ecommerce-etl-pipeline.git)
 cd ecommerce-etl-pipeline
-2. Install dependencies
+```
+
+### 2. Install dependencies
+```bash
 pip install -r requirements.txt
-3. Run the script
+```
+
+### 3. Run the script
+```bash
 python main.py
-📊 Transformation Logic
+```
+
+## 📊 Transformation Logic
 The script performs the following transformations:
-Price: $15.50 -> 15.50 (Float)
-Date: 12-01-2023 / 2023/10/01 -> 2023-10-01
-SKU Generation: 101 -> SUP-101
-📝 License
+1. **Price:** `$15.50` -> `15.50` (Float)
+2. **Date:** `12-01-2023` / `2023/10/01` -> `2023-10-01`
+3. **SKU Generation:** `101` -> `SUP-101`
+
+## 📝 License
 MIT License. Free to use for educational and commercial purposes.
